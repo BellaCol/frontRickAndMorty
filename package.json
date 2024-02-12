@@ -8,7 +8,8 @@
     "clean": "vite clean",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "star":"serve dist -n -L -p $PORT"
   },
   "dependencies": {
     "axios": "^1.6.2",
@@ -17,7 +18,8 @@
     "react-redux": "^9.0.4",
     "react-router-dom": "^6.21.0",
     "redux": "^5.0.0",
-    "redux-thunk": "^3.1.0"
+    "redux-thunk": "^3.1.0",
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
