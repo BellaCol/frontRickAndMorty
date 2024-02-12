@@ -33,7 +33,7 @@ const Detail= function({characters}){
          }
       ;*/}
       
-          axios(`http://localhost:3001/rickandmorty/character/${id}`).then(
+          axios(`/character/${id}`).then(
            ({ data }) => {
               if (data.name) {
                  setCharacter(data);
