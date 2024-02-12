@@ -1,0 +1,65 @@
+.miDiv{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 5px;
+    overflow: hidden;
+    width: 400px;
+    max-width: 800px;
+    margin: 30px 30px;
+    border-radius: 10px;
+    color:white;
+    
+    background-color: rgba(137, 189, 123, 0.061);
+}
+.buttonCancel{
+    align-self: flex-end;
+    background-color: rgb(15, 207, 15,0.3);
+    width: 30px;
+    height: 30px;
+    color:white;
+    border-radius: 50%;
+    border: none;
+ }
+ .buttonCancel:hover{
+    
+    background-color: rgb(15, 207, 15,0.9);
+    cursor: pointer;
+    
+ }
+
+ .miDiv img{
+   
+    width: 250px;
+    height:250px;
+    border-radius: 80%;
+}
+.miDiv:hover{
+    background-color:  rgba(4, 4, 4, 0.6);
+    transform: translateY(-35px);
+    box-shadow: 0 10px 20px rgba(85, 235, 44, 0.8);
+    top: 0;
+    right: 0;
+}
+
+
+.miDiv:hover h2{
+   color:aliceblue;
+}
+
+
+.miDiv:hover img{
+    border-radius: 50%;
+}
+
+
+.miDiv .titleDiv{
+    
+    display: flex;
+    flex-direction: column;
+   
+     right: 10px;
+     transform: translateY(-50%);
+ }

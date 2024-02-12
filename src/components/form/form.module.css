@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centrar en línea horizontal */
+    justify-content: center; /* Centrar en línea vertical */
+    height: 600px; /* 600 de alto */
+    width: 400px; /* 300 de ancho */
+    background: rgb(244, 246, 244, 0.1); /* Fondo negro */
+    margin: auto;
+    border-radius: 2%;
+  }
+  
+  /* Estilos para la imagen */
+  .imgContainer {
+    width: 300px;
+    height: 300px;
+    overflow: hidden; /* Asegura que la imagen no sobresalga del contenedor circular */
+    border-radius: 50%; /* Forma circular */
+  }
+  
+  .imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+  }
+  
+  /* Estilos para los inputs y botón */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    color: limegreen; /* Color de la etiqueta */
+  }
+
+  p{
+    color: rgb(251, 248, 248); /* Color de la etiqueta */
+  }
+  
+  input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid limegreen; /* Borde del input */
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background: limegreen; /* Color de fondo del botón */
+    color: black; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: darkgreen; /* Color de fondo cuando se pasa el ratón sobre el botón */
+  }

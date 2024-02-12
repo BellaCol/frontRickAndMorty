@@ -1,0 +1,48 @@
+.miContainer{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+}
+.miDiv{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 5px;
+    overflow: hidden;
+    width: 400px;
+    max-width: 800px;
+    margin: 30px 30px;
+    border-radius: 10px;
+    color:white;
+    
+    background-color: rgba(137, 189, 123, 0.061);
+}
+
+
+
+ .miDiv img{
+   
+    width: 250px;
+    height:250px;
+    border-radius: 80%;
+}
+
+
+
+
+
+
+
+.miDiv .titleDiv{
+    
+    display: flex;
+    flex-direction: column;
+   
+     right: 10px;
+     transform: translateY(-50%);
+ }
