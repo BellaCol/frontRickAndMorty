@@ -27,9 +27,9 @@ function App() {
    async function onLogin(form) {
       const { mail, password } = form;
       
-      const URL = 'http://localhost:3001/rickandmorty/login/';
+      //const URL = 'http://localhost:3001/rickandmorty/login/';
       try{
-      const {data}= await axios(URL + `?email=${mail}&password=${password}`)
+      const {data}= await axios('/login/' + `?email=${mail}&password=${password}`)
       const { access } = data;
          setAccess(access);
          if(access===true){
@@ -71,7 +71,7 @@ function App() {
          } 
       
       if(id2===0){
-       const{ data } = await axios(`http://localhost:3001/rickandmorty/character/${id}`)
+       const{ data } = await axios(`/character/${id}`)
         
             try{
             if (data.name) {
