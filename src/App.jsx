@@ -29,7 +29,7 @@ function App() {
       
       //const URL = 'http://localhost:3001/rickandmorty/login/';
       try{
-      const {data}= await axios('/login/' + `?email=${mail}&password=${password}`)
+      const {data}= await axios(`/login/?email=${mail}&password=${password}`)
       const { access } = data;
          setAccess(access);
          if(access===true){
